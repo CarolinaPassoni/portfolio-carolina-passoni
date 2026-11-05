@@ -1,11 +1,24 @@
-# Portfólio Carolina Passoni — versão neon 2026
+# Portfólio de Carolina Passoni
 
-Site estático, responsivo, sem dependência de framework ou banco de dados.
+Esta é a versão completa, responsiva e interativa do portfólio pessoal.
 
-**Arquivos:** `index.html`, `styles.css`, `script.js` e `assets/`.
+## Arquivos do site
 
-**Publicação:** envie todos os arquivos para a raiz do projeto no Vercel ou GitHub Pages. Não precisa executar build.
+- `index.html`: página principal, com projetos, trajetória e contato.
+- `styles.css`: visual neon e ajustes para celular, tablet e computador.
+- `script.js`: menu responsivo, filtros, detalhes dos projetos, tema e contato via WhatsApp.
+- `assets/`: todas as imagens dos projetos, imagem principal, ícone e currículo.
 
-**Interações:** filtros de projetos, detalhes em janela modal, tema claro/escuro, menu mobile, contato WhatsApp e links para currículo.
+## Como este repositório está configurado
 
-**Importante:** as artes dos projetos são ilustrativas e não são logomarcas oficiais. Os números de projetos, especializações e graduações foram extraídos das informações já informadas.
+O Vercel publica os arquivos que estão nesta pasta:
+
+`Portfolio_Carolina_Passoni_Neon_Interativo_2026`
+
+**Não crie outra pasta paralela**, como `Portfolio_Carolina_Passoni_Responsivo_Todas_as_Telas`. Atualize os arquivos desta pasta e envie para a branch `main`. O Vercel ligado ao GitHub publicará o commit automaticamente.
+
+Para fazer o envio pela interface do GitHub, abra esta pasta no repositório, clique em `Add file > Upload files`, selecione `index.html`, `styles.css`, `script.js`, `README.md` e a pasta `assets` com seu conteúdo, e confirme em `Commit changes`. Não envie somente o arquivo ZIP.
+
+Site estático, sem instalação de dependências ou etapa de build.
+
+**Nota:** As imagens são artes ilustrativas dos projetos, não logomarcas oficiais.
