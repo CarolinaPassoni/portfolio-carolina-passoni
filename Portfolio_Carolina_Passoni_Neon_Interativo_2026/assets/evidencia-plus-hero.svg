@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+ <defs>
+  <radialGradient id="bg" cx="63%" cy="48%" r="84%"><stop offset="0" stop-color="#332368"/><stop offset=".5" stop-color="#151533"/><stop offset="1" stop-color="#080e21"/></radialGradient>
+  <linearGradient id="v" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#b782ff"/><stop offset="1" stop-color="#5d62f8"/></linearGradient>
+  <linearGradient id="mint" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#91ffd0"/><stop offset="1" stop-color="#2aaad2"/></linearGradient>
+  <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#25264e"/><stop offset="1" stop-color="#111831"/></linearGradient>
+  <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.4" fill="#9787f9" opacity=".23"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="42"/></filter>
+  <filter id="shadow"><feDropShadow dx="0" dy="34" stdDeviation="30" flood-color="#030818" flood-opacity=".75"/></filter>
+  <filter id="soft"><feDropShadow dx="0" dy="10" stdDeviation="13" flood-color="#030818" flood-opacity=".5"/></filter>
+ </defs>
+ <rect width="1440" height="900" fill="url(#bg)"/>
+ <rect width="1440" height="900" fill="url(#dots)"/>
+ <circle cx="1158" cy="260" r="273" fill="#6044dd" opacity=".23" filter="url(#blur)"/>
+ <circle cx="602" cy="838" r="204" fill="#39d4c0" opacity=".12" filter="url(#blur)"/>
+ <g opacity=".8"><path d="M0 800C220 730 380 880 670 790S1100 570 1440 707" fill="none" stroke="#885bff" stroke-width="2" opacity=".25"/><path d="M0 826C220 753 380 905 670 814S1100 593 1440 730" fill="none" stroke="#885bff" stroke-width="2" opacity=".17"/></g>
+ <!-- Mark -->
+ <g transform="translate(100 88)">
+   <rect width="72" height="72" rx="22" fill="url(#v)"/>
+   <path d="M20 37l11 11 22-25" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+   <circle cx="58" cy="17" r="10" fill="#93ffd8"/>
+ </g>
+ <text x="195" y="139" fill="#e9e4ff" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="700" letter-spacing="2">TECNOLOGIA PARA GESTÃO</text>
+ <text x="100" y="296" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="90" font-weight="bold" letter-spacing="-4">Evidência<tspan fill="#a88cfc">+</tspan></text>
+ <text x="102" y="350" fill="#ab9fdf" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="bold" letter-spacing="2">REGISTRO · IA · DOCUMENTOS</text>
+ <text x="102" y="427" fill="#c9c8e4" font-family="DejaVu Sans, sans-serif" font-size="25">Atividades registradas.</text>
+ <text x="102" y="466" fill="#c9c8e4" font-family="DejaVu Sans, sans-serif" font-size="25">Resultados organizados.</text>
+ <text x="102" y="505" fill="#c9c8e4" font-family="DejaVu Sans, sans-serif" font-size="25">Evidências prontas para apresentar.</text>
+ <g transform="translate(100 552)">
+   <rect width="193" height="49" rx="24" fill="#231f4c" stroke="#735ee9"/><circle cx="24" cy="24" r="6" fill="#82f7c8"/><text x="43" y="31" fill="#ececff" font-family="DejaVu Sans" font-size="16" font-weight="bold">DADOS E FOTOS</text>
+   <rect x="207" width="184" height="49" rx="24" fill="#231f4c" stroke="#735ee9"/><text x="224" y="31" fill="#ececff" font-family="DejaVu Sans" font-size="16" font-weight="bold">DOCUMENTOS</text>
+ </g>
+ <!-- Dashboard window -->
+ <g transform="translate(705 156)" filter="url(#shadow)">
+   <rect x="0" y="0" width="663" height="575" rx="25" fill="#11162a" stroke="#8d78db" stroke-opacity=".7" stroke-width="3"/>
+   <rect x="2" y="2" width="659" height="66" rx="24" fill="#26233f"/>
+   <rect x="2" y="43" width="659" height="31" fill="#26233f"/>
+   <circle cx="31" cy="34" r="7" fill="#ff80a5"/><circle cx="55" cy="34" r="7" fill="#ffdf90"/><circle cx="79" cy="34" r="7" fill="#78e8ca"/>
+   <text x="120" y="42" fill="#d9d7ed" font-family="DejaVu Sans" font-size="17" font-weight="bold">Evidência+ / Painel de registros</text>
+   <rect x="21" y="89" width="133" height="459" rx="13" fill="#181d36"/>
+   <rect x="36" y="118" width="103" height="42" rx="10" fill="#6152ac"/>
+   <rect x="47" y="130" width="19" height="18" rx="5" fill="#bda9ff"/><text x="73" y="146" font-size="15" fill="#fff" font-family="DejaVu Sans" font-weight="bold">Início</text>
+   <rect x="38" y="192" width="101" height="15" rx="7" fill="#555475" opacity=".64"/>
+   <rect x="38" y="239" width="86" height="14" rx="7" fill="#555475" opacity=".52"/>
+   <rect x="38" y="287" width="97" height="14" rx="7" fill="#555475" opacity=".52"/>
+   <rect x="38" y="333" width="78" height="14" rx="7" fill="#555475" opacity=".52"/>
+   <rect x="38" y="380" width="96" height="14" rx="7" fill="#555475" opacity=".52"/>
+   <rect x="38" y="427" width="68" height="14" rx="7" fill="#555475" opacity=".52"/>
+   <rect x="38" y="489" width="104" height="41" rx="10" fill="#272b4f"/>
+   <text x="47" y="514" fill="#92f1ce" font-size="13" font-family="DejaVu Sans" font-weight="bold">EXPORTAR</text>
+   <text x="180" y="124" fill="#f3f0ff" font-family="DejaVu Sans" font-size="25" font-weight="bold">Nova evidência</text>
+   <rect x="530" y="97" width="105" height="34" rx="17" fill="#1c443f"/><circle cx="546" cy="114" r="5" fill="#75f6bc"/><text x="559" y="120" fill="#bfffe6" font-family="DejaVu Sans" font-size="13">SALVO</text>
+   <text x="180" y="158" fill="#969ab6" font-family="DejaVu Sans" font-size="14">Organize cada etapa com clareza e rapidez</text>
+   <!-- Progress dots -->
+   <g transform="translate(180 179)"><circle cx="17" cy="16" r="15" fill="#a893ff"/><path d="M10 16l5 5 10-11" stroke="#172139" stroke-width="3" stroke-linecap="round" fill="none"/>
+     <path d="M34 16H65" stroke="#918bca" stroke-width="3"/><circle cx="83" cy="16" r="15" fill="#a893ff"/><path d="M78 16l4 4 9-9" fill="none" stroke="#172139" stroke-width="3"/>
+     <path d="M99 16H130" stroke="#918bca" stroke-width="3"/><circle cx="148" cy="16" r="15" fill="#272f54" stroke="#aa94ff" stroke-width="3"/>
+     <text x="143" y="21" fill="#fff" font-family="DejaVu Sans" font-size="13">3</text><path d="M164 16H196" stroke="#595b86" stroke-width="3"/>
+     <circle cx="211" cy="16" r="13" fill="#272f54" stroke="#595b86" stroke-width="2"/><circle cx="256" cy="16" r="13" fill="#272f54" stroke="#595b86" stroke-width="2"/>
+     <circle cx="301" cy="16" r="13" fill="#272f54" stroke="#595b86" stroke-width="2"/>
+     <circle cx="346" cy="16" r="13" fill="#272f54" stroke="#595b86" stroke-width="2"/>
+     <circle cx="391" cy="16" r="13" fill="#272f54" stroke="#595b86" stroke-width="2"/>
+   </g>
+   <!-- Form card -->
+   <rect x="178" y="229" width="454" height="253" rx="16" fill="#232842" stroke="#3b4367"/>
+   <text x="197" y="267" fill="#ebeaff" font-size="17" font-family="DejaVu Sans" font-weight="bold">Oficina de Tecnologia e Inovação</text>
+   <rect x="197" y="282" width="413" height="1" fill="#494a6d"/>
+   <text x="198" y="307" fill="#aaaec8" font-size="13" font-family="DejaVu Sans">DESCRIÇÃO DA ATIVIDADE</text>
+   <rect x="197" y="320" width="413" height="86" rx="10" fill="#151b32" stroke="#3c4164"/>
+   <rect x="213" y="337" width="278" height="9" rx="4" fill="#8384a8"/><rect x="213" y="356" width="346" height="9" rx="4" fill="#696f96"/>
+   <rect x="213" y="374" width="219" height="9" rx="4" fill="#696f96"/>
+   <circle cx="576" cy="365" r="19" fill="#6043c5"/>
+   <path d="M576 354v13m-7-3a7 7 0 0014 0m-7 7v5" stroke="#e5dcff" stroke-width="3" fill="none" stroke-linecap="round"/>
+   <rect x="197" y="419" width="191" height="44" rx="11" fill="#3c3474"/>
+   <path d="M216 444l9-9 9 9 9-9" stroke="#b7a5ff" stroke-width="3" fill="none"/>
+   <text x="255" y="447" fill="#efeaff" font-family="DejaVu Sans" font-size="14" font-weight="bold">Melhorar com IA</text>
+   <rect x="400" y="419" width="211" height="44" rx="11" fill="#1e4c45"/>
+   <path d="M420 443l7 7 14-18" stroke="#aaffd7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+   <text x="452" y="447" fill="#c6ffdf" font-family="DejaVu Sans" font-size="14" font-weight="bold">Registro pronto</text>
+   <!-- bottom summary -->
+   <rect x="181" y="500" width="199" height="43" rx="11" fill="#1f2c49"/>
+   <text x="202" y="527" fill="#f1e8ff" font-size="15" font-family="DejaVu Sans" font-weight="bold">DOCX</text><text x="273" y="527" fill="#94d2ff" font-size="12" font-family="DejaVu Sans">EDITÁVEL</text>
+   <rect x="398" y="500" width="233" height="43" rx="11" fill="#1f2c49"/>
+   <text x="420" y="527" fill="#f1e8ff" font-size="15" font-family="DejaVu Sans" font-weight="bold">PDF</text><text x="474" y="527" fill="#94d2ff" font-size="12" font-family="DejaVu Sans">FORMATADO</text>
+ </g>
+ <!-- badge floating -->
+ <g transform="translate(1148 700) rotate(-8)" filter="url(#soft)"><rect width="220" height="78" rx="21" fill="url(#mint)"/><text x="32" y="31" fill="#0e2b2b" font-family="DejaVu Sans" font-weight="bold" font-size="14">REGISTRO INTELIGENTE</text><text x="32" y="59" fill="#113839" font-family="DejaVu Sans" font-weight="bold" font-size="21">IA + VOZ</text></g>
+ <text x="102" y="818" fill="#a8a2c7" font-family="DejaVu Sans" font-size="15" letter-spacing="2">ARTE CONCEITUAL DO PROJETO  •  CAROLINA PASSONI</text>
+</svg>
